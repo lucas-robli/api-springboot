@@ -36,8 +36,6 @@ public class MedicoController {
         return ResponseEntity.ok(page);
     }
 
-
-
     @PutMapping
     @Transactional
     public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados) {
